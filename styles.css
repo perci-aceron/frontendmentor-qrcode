@@ -79,10 +79,10 @@ html {
     place-content: center;
 }
 .qr-card {
-    width: 325px;
-    padding: 1rem;
+    width: 315px;
+    padding: 1.5rem;
     background: var(--white);
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 } 
 .qr-image {
@@ -99,15 +99,16 @@ img {
 }
 .sub-header {
     font-weight: 700;
+    font-size: 2.2rem;
     text-align: center;
     color: var(--slate900);
-    padding-bottom: 2.5rem;
+    padding-bottom: 2rem;
     line-height: 1.1;
 }
 .sub-title {
     font-weight: 400;
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     color: var(--slate500);
     line-height: 1.4;
 }
