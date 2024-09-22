@@ -79,7 +79,7 @@ html {
     place-content: center;
 }
 .qr-card {
-    width: 315px;
+    width: 310px;
     padding: 1.5rem;
     background: var(--white);
     border-radius: 15px;
