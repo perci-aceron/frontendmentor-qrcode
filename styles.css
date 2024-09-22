@@ -78,18 +78,15 @@ html {
     display: grid;
     place-content: center;
 }
-h1 {
-    display: none;
-}
 .qr-card {
-    width: 230px;
+    width: 325px;
     padding: 1rem;
     background: var(--white);
     border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 } 
 .qr-image {
     margin: 0 auto;
-    padding-bottom: 2rem;
 }
 img {
     width: 100%;
@@ -97,18 +94,21 @@ img {
     object-fit: cover;
     border-radius: 10px;
 }
+.sub-container {
+    padding: 3rem 1.2rem;
+}
 .sub-header {
     font-weight: 700;
     text-align: center;
     color: var(--slate900);
-    padding-bottom: 1rem;
+    padding-bottom: 2.5rem;
     line-height: 1.1;
 }
 .sub-title {
+    font-weight: 400;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     color: var(--slate500);
-    padding-bottom: 1.5rem;
     line-height: 1.4;
 }
 .attribution { font-size: 1.1rem; text-align: center; }
